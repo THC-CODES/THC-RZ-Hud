@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
+
+#heal {
+    position: absolute;
+    right: 51%;
+    bottom: 1%;
+    width: 10.85%;
+    height: 2%;
+    margin-left: -10px;
+}
+
+.fas.fa-heartbeat {
+    position: absolute;
+    right: 58%;
+    bottom: 35.7%;
+    opacity: 1.0;
+    z-index: 500;
+}
+
+#box {
+    max-width: 150px;
+    margin-left: -10px;
+    transition: 0.2s ease-in-out;
+    border: 13px solid #000;
+    border-color: rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-top-width: 0;
+}
+
+#armor {
+    position: absolute;
+    right: 42%;
+    bottom: 1%;
+    width: 10.85%;
+    height: 2%;
+    margin-left: -10px;
+}
+
+.fas.fa-shield-alt {
+    position: absolute;
+    right: 62%;
+    bottom: 45%;
+    opacity: 1;
+    z-index: 500;
+    font-size: 11px;
+}
+
+#boxArmor {
+    max-width: 150px;
+    margin-left: -10px;
+    border: 14.5px solid #000;
+    border-color: rgb(0, 0, 0);
+    border-bottom-width: 0;
+    border-left-color: transparent;
+    transition: 0.2s ease-in-out;
+}
